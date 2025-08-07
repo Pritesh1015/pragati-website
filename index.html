@@ -4,33 +4,101 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Pragati Coaching Classes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: Arial, sans-serif; line-height: 1.6; }
-    header { background: #007acc; color: white; padding: 20px 0; text-align: center; }
-    nav { background: #005fa3; padding: 10px 0; text-align: center; }
-    nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
-    section { padding: 40px 20px; max-width: 1000px; margin: auto; }
-    .about, .courses, .contact { margin-bottom: 40px; }
-    footer { background: #007acc; color: white; text-align: center; padding: 20px; }
-    .btn {
-      display: inline-block;
-      padding: 10px 20px;
-      background: #005fa3;
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      color: #333;
+      background: #f9f9f9;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1556761175-4b46a572b786') no-repeat center center/cover;
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3em;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2em;
+    }
+    nav {
+      background: #007acc;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav a {
       color: white;
       text-decoration: none;
-      border-radius: 5px;
-      margin-top: 10px;
+      margin: 0 15px;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #ffd700;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #007acc;
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+    .courses ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+    .contact p {
+      margin-bottom: 10px;
+      font-size: 1.1em;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 25px;
+      background: #007acc;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      margin-top: 15px;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #005f9e;
+    }
+    footer {
+      background: #007acc;
+      color: white;
+      text-align: center;
+      padding: 20px;
     }
     @media (max-width: 600px) {
-      nav a { display: block; margin: 10px 0; }
+      header h1 {
+        font-size: 2em;
+      }
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
     }
   </style>
 </head>
 <body>
+
   <header>
     <h1>Pragati Coaching Classes</h1>
-    <p>For Class XI & XII Science (Maharashtra Board + CET)</p>
+    <p>XI & XII Science | Maharashtra Board + CET</p>
   </header>
 
   <nav>
@@ -39,32 +107,32 @@
     <a href="#contact">Contact</a>
   </nav>
 
-  <section id="about" class="about">
+  <section id="about">
     <h2>About Us</h2>
-    <p>
-      Welcome to Pragati Coaching Classes — your trusted destination for Class XI and XII Science education. We specialize in Maharashtra Board curriculum along with intensive preparation for CET.
-    </p>
+    <p>At Pragati Coaching Classes, we empower students of Class XI & XII Science with top-quality education, personalized attention, and expert guidance for Maharashtra Board and CET. Join the journey to success with our result-oriented teaching methods and doubt-solving sessions.</p>
   </section>
 
   <section id="courses" class="courses">
     <h2>Our Courses</h2>
     <ul>
-      <li>Class XI Science (Maharashtra Board)</li>
-      <li>Class XII Science (Maharashtra Board)</li>
-      <li>CET Preparation</li>
-      <li>Weekly Tests & Doubt Solving</li>
+      <li>Class XI Science - Maharashtra State Board</li>
+      <li>Class XII Science - Maharashtra State Board</li>
+      <li>CET Entrance Exam Preparation</li>
+      <li>Weekly Mock Tests & Assignments</li>
+      <li>Doubt Solving & Personal Mentoring</li>
     </ul>
   </section>
 
   <section id="contact" class="contact">
     <h2>Contact Us</h2>
-    <p><strong>Address:</strong> Newali Naka</p>
-    <p><strong>Phone:</strong> <a href="tel:+919892924664">9892924664</a></p>
+    <p><strong>📍 Address:</strong> Newali Naka</p>
+    <p><strong>📞 Phone:</strong> <a href="tel:+919892924664">9892924664</a></p>
     <a href="tel:+919892924664" class="btn">Call Now</a>
   </section>
 
   <footer>
     <p>&copy; 2025 Pragati Coaching Classes. All Rights Reserved.</p>
   </footer>
+
 </body>
 </html>
